@@ -33,3 +33,26 @@
      top:65%;
      left:35%;
 }
+
+@media  screen and (max-width:500px) {
+     *{
+          padding:0px;
+          margin:0px;
+     }
+     .info{
+          width:100%;
+     }
+     #playerTurn{
+          width:100%;
+          position:absolute;
+          left:0%;
+          top:20%;
+
+     }
+     .gamegrid{
+          left:20%;
+          right:20%;
+          top:35%;
+     }
+     
+}
